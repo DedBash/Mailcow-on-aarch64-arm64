@@ -41,6 +41,7 @@ curl -o docker-compose.yml https://raw.githubusercontent.com/DedBash/Mailcow-on-
 # f you use the backup system from mailcow:
 rm helper-scripts/backup_and_restore.sh
 curl -o helper-scripts/backup_and_restore.sh https://raw.githubusercontent.com/DedBash/Mailcow-on-aarch64-arm64/main/backup_and_restore.sh
+chmod +x helper-scripts/backup_and_restore.sh
 ```
 ### Start mailcow
 ```bash
