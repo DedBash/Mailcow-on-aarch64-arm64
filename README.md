@@ -12,12 +12,12 @@ systemctl enable --now docker
 On Debian/Ubuntu systems:
 ```bash
 apt update
-apt install docker-compose-plugin
+apt install docker-compose-plugin git
 ```
 On Centos 7 systems:
 ```bash
 yum update
-yum install docker-compose-plugin
+yum install docker-compose-plugin git
 ```
 ### Install mailcow
 ```bash
